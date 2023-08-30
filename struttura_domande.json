@@ -1,0 +1,1330 @@
+{
+    "elenco_domande": [
+      {
+        "domande": [
+          {
+            "testo_domanda": "Brand principale.",
+            "tipo_domanda": "testo",
+            "ordine_domanda": 1
+          },
+          {
+            "testo_domanda": "Settore di attività.",
+            "tipo_domanda": "testo",
+            "ordine_domanda": 2
+          },
+          {
+            "testo_domanda": "Struttura societaria",
+            "tipo_domanda": "testo",
+            "ordine_domanda": 3
+          },
+          {
+            "testo_domanda": "Numero di dipendenti della società",
+            "tipo_domanda": "testo",
+            "ordine_domanda": 4
+          },
+          {
+            "testo_domanda": "Fascia fatturato della società",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {
+                "ordine_risposta": 1,
+                "peso_risposta": 0,
+                "testo_risposta": "meno di 1 M€"
+              },
+              {
+                "ordine_risposta": 2,
+                "peso_risposta": 0,
+                "testo_risposta": "tra 1 e 5 M€"
+              },
+              {
+                "ordine_risposta": 3,
+                "peso_risposta": 0,
+                "testo_risposta": "tra 5 e 15 M€"
+              },
+              {
+                "ordine_risposta": 4,
+                "peso_risposta": 0,
+                "testo_risposta": "oltre 15 M€"
+              }
+            ],
+            "ordine_domanda": 5
+          },
+          {
+            "testo_domanda": "Qual è la tua idea di sostenibilità?",
+            "tipo_domanda": "testo",
+            "ordine_domanda": 6
+          },
+          {
+            "testo_domanda":
+                "Come reputi il livello di integrazione della sostenibilità in azienda?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {
+                "ordine_risposta": 1,
+                "peso_risposta": 0,
+                "testo_risposta": "basso"
+              },
+              {
+                "ordine_risposta": 2,
+                "peso_risposta": 0,
+                "testo_risposta": "medio"
+              },
+              {"ordine_risposta": 3, "peso_risposta": 0, "testo_risposta": "alto"}
+            ],
+            "ordine_domanda": 7
+          },
+          {
+            "testo_domanda":
+                "Come reputi il grado di formazione sulle tematiche di sostenibilità del personale aziendale?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {
+                "ordine_risposta": 1,
+                "peso_risposta": 0,
+                "testo_risposta": "basso"
+              },
+              {
+                "ordine_risposta": 2,
+                "peso_risposta": 0,
+                "testo_risposta": "medio"
+              },
+              {"ordine_risposta": 3, "peso_risposta": 0, "testo_risposta": "alto"}
+            ],
+            "ordine_domanda": 8
+          },
+          {
+            "testo_domanda": "E rispetto alle figure apicali?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {
+                "ordine_risposta": 1,
+                "peso_risposta": 0,
+                "testo_risposta": "basso"
+              },
+              {
+                "ordine_risposta": 2,
+                "peso_risposta": 0,
+                "testo_risposta": "medio"
+              },
+              {"ordine_risposta": 3, "peso_risposta": 0, "testo_risposta": "alto"}
+            ],
+            "ordine_domanda": 9
+          }
+        ],
+        "ordine_livello": 1,
+        "titolo_livello": "Informazioni generali",
+        "titolo_livello_abbreviato": "Gen"
+      },
+      {
+        "domande": [
+          {
+            "testo_domanda": "La società ha esplicitato una vision/mission?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 10, "testo_risposta": "Si"},
+              {"ordine_risposta": 2, "peso_risposta": 0, "testo_risposta": "No"}
+            ],
+            "ordine_domanda": 1
+          },
+          {
+            "testo_domanda":
+                "La società dispone di un codice di condotta/codice etico/carta dei valori?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 10, "testo_risposta": "Si"},
+              {"ordine_risposta": 2, "peso_risposta": 0, "testo_risposta": "No"}
+            ],
+            "ordine_domanda": 2
+          },
+          {
+            "testo_domanda": "La società è Società Benefit?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 10, "testo_risposta": "Si"},
+              {"ordine_risposta": 2, "peso_risposta": 0, "testo_risposta": "No"}
+            ],
+            "ordine_domanda": 3
+          },
+          {
+            "testo_domanda":
+                "La società è in possesso di una delle seguenti certificazioni?",
+            "tipo_domanda": "checklist",
+            "risposte_possibili": [
+              {
+                "ordine_risposta": 1,
+                "peso_risposta": 0,
+                "testo_risposta": "Nessuna"
+              },
+              {
+                "ordine_risposta": 2,
+                "peso_risposta": 10,
+                "testo_risposta":
+                    "ISO 37001 sistema di gestione per la prevenzione della corruzione"
+              },
+              {
+                "ordine_risposta": 3,
+                "peso_risposta": 10,
+                "testo_risposta": "ISO 14000 sulla gestione ambientale"
+              },
+              {
+                "ordine_risposta": 4,
+                "peso_risposta": 10,
+                "testo_risposta": "ISO 50001 per la gestione dell’energia"
+              },
+              {
+                "ordine_risposta": 5,
+                "peso_risposta": 10,
+                "testo_risposta":
+                    "ISO 46001 per la gestione e l’ottimizzazione dei consumi di acqua"
+              },
+              {
+                "ordine_risposta": 6,
+                "peso_risposta": 10,
+                "testo_risposta": "ISO 9001 sulla qualità"
+              },
+              {
+                "ordine_risposta": 7,
+                "peso_risposta": 10,
+                "testo_risposta": "ISO 27000 sulla sicurezza delle informazioni"
+              },
+              {
+                "ordine_risposta": 8,
+                "peso_risposta": 10,
+                "testo_risposta":
+                    "SA 8000 sulla valorizzazione e le condizioni dei lavoratori e il rispetto dei diritti umani"
+              },
+              {
+                "ordine_risposta": 9,
+                "peso_risposta": 10,
+                "testo_risposta": "ISO 26000 Guida alla responsabilità sociale"
+              },
+              {
+                "ordine_risposta": 10,
+                "peso_risposta": 10,
+                "testo_risposta": "ISO 45001 Sicurezza"
+              },
+              {
+                "ordine_risposta": 11,
+                "peso_risposta": 10,
+                "testo_risposta":
+                    "ISO 17033 Asserzioni etiche ed informazioni di supporto"
+              },
+              {
+                "ordine_risposta": 12,
+                "peso_risposta": 10,
+                "testo_risposta": "ISO 20121 Gestione sostenibile per gli eventi"
+              },
+              {
+                "ordine_risposta": 13,
+                "peso_risposta": 10,
+                "testo_risposta":
+                    "SA 8000 Gestione dei lavoratori lungo le filiere"
+              },
+              {
+                "ordine_risposta": 14,
+                "peso_risposta": 10,
+                "testo_risposta": "SRG 88088 Sistema di gestione sostenibile"
+              },
+              {
+                "ordine_risposta": 15,
+                "peso_risposta": 10,
+                "testo_risposta": "SMETA (Sedex Member Ethical Trade)"
+              },
+              {
+                "ordine_risposta": 16,
+                "peso_risposta": 10,
+                "testo_risposta": "FSC (Forest Stewardship Council)"
+              },
+              {
+                "ordine_risposta": 17,
+                "peso_risposta": 10,
+                "testo_risposta": "Fair Trade"
+              },
+              {
+                "ordine_risposta": 18,
+                "peso_risposta": 10,
+                "testo_risposta": "Rainforest Alliance"
+              },
+              {
+                "ordine_risposta": 19,
+                "peso_risposta": 10,
+                "testo_risposta": "Ecolabel"
+              },
+              {
+                "ordine_risposta": 20,
+                "peso_risposta": 10,
+                "testo_risposta": "Altre certificazioni"
+              }
+            ],
+            "ordine_domanda": 5
+          },
+          {
+            "testo_domanda":
+                "La società ha ottenuto premi o riconoscimenti negli ultimi 3 anni?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 10, "testo_risposta": "Si"},
+              {"ordine_risposta": 2, "peso_risposta": 0, "testo_risposta": "No"}
+            ],
+            "ordine_domanda": 6
+          },
+          {
+            "testo_domanda":
+                "Negli ultimi 3 anni la società è stata coinvolta in controversie o ha ricevuto sanzioni su argomenti di natura ambientale, sociale, di lavoro/sindacali?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "Si"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "No"}
+            ],
+            "ordine_domanda": 7
+          },
+          {
+            "testo_domanda":
+                "È presente un Consiglio di Amministrazione? Se si, da quanti componenti è composto? (nei commenti)",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "Si"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "No"}
+            ],
+            "ordine_domanda": 8
+          },
+          {
+            "testo_domanda":
+                "Se è presente componenti è composto anche da donne?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "Si"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "No"}
+            ],
+            "ordine_domanda": 9
+          },
+          {
+            "testo_domanda":
+                "Ci sono stati dei cambiamenti di forma giuridica dell’azienda negli ultimi 5 anni d'attività?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "Si"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "No"}
+            ],
+            "ordine_domanda": 10
+          },
+          {
+            "testo_domanda": "L'impresa ha una proprietà di tipo familiare?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "Si"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "No"}
+            ],
+            "ordine_domanda": 11
+          },
+          {
+            "testo_domanda": "L'impresa appartiene a un gruppo di imprese?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "Si"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "No"}
+            ],
+            "ordine_domanda": 12
+          },
+          {
+            "testo_domanda":
+                "Quali indicatori di performance economica ha più importanza per l’azienda e i suoi stakeholder?",
+            "tipo_domanda": "testo",
+            "ordine_domanda": 13
+          },
+          {
+            "testo_domanda":
+                "L’azienda valuta il tema degli impatti economici indiretti generati dall’attività di business? Se si, in che modo e con quali strumenti? (inserire nel commento)",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "Si"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "No"}
+            ],
+            "ordine_domanda": 14
+          },
+          {
+            "testo_domanda":
+                "L’impresa ha mai investito in prodotti di investimento sostenibile e responsabili (“SRI”) e/o presso Banche di Credito Cooperativo, Casse Rurali, banche o SGR etiche?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "Si"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "No"}
+            ],
+            "ordine_domanda": 15
+          },
+          {
+            "testo_domanda":
+                "La società ha adottato il Modello di organizzazione, gestione e controllo o Modello 231 e ha già introdotto controlli e misure (es. processi di formazione, creazione di un apposito organismo di vigilanza) di contrasto alla corruzione attiva e passiva?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 10, "testo_risposta": "Si"},
+              {"ordine_risposta": 2, "peso_risposta": 0, "testo_risposta": "No"}
+            ],
+            "ordine_domanda": 16
+          },
+          {
+            "testo_domanda":
+                "La società ha intrapreso delle azioni di risk management, ovvero per la gestione del rischio d'impresa, con particolare riferimento ai seguenti tipi di rischio:",
+            "tipo_domanda": "checklist",
+            "risposte_possibili": [
+              {
+                "ordine_risposta": 1,
+                "peso_risposta": 10,
+                "testo_risposta":
+                    "Strategico (concorrenza, contesto competitivo, trend di mercato, preferenze dei clienti, etc.)"
+              },
+              {
+                "ordine_risposta": 2,
+                "peso_risposta": 10,
+                "testo_risposta":
+                    "Operativo (governance, qualità, sicurezza sul lavoro, sicurezza dei dati, etc.)"
+              },
+              {
+                "ordine_risposta": 3,
+                "peso_risposta": 10,
+                "testo_risposta":
+                    "Climatico e ambientale (fisico e di transizione)"
+              },
+              {
+                "ordine_risposta": 4,
+                "peso_risposta": 10,
+                "testo_risposta":
+                    "Reputazionale (rispetto ai fattori di sostenibilità ambientale e sociale)"
+              },
+              {
+                "ordine_risposta": 5,
+                "peso_risposta": 0,
+                "testo_risposta": "Nessuno"
+              }
+            ],
+            "ordine_domanda": 17
+          },
+          {
+            "testo_domanda":
+                "La società ha un comitato interno o un referente incaricato di occuparsi del tema sostenibilità? Se si, chi incaricato, ha della formazione specifica riguardo al tema della sostenibilità?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "No"},
+              {
+                "ordine_risposta": 2,
+                "peso_risposta": 10,
+                "testo_risposta": "Si/No"
+              },
+              {
+                "ordine_risposta": 3,
+                "peso_risposta": 20,
+                "testo_risposta": "Si/Si"
+              }
+            ],
+            "ordine_domanda": 18
+          },
+          {
+            "testo_domanda":
+                "L’azienda ha svolto l’analisi dei suoi impatti e della sua catena del valore?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 10, "testo_risposta": "Si"},
+              {"ordine_risposta": 2, "peso_risposta": 0, "testo_risposta": "No"}
+            ],
+            "ordine_domanda": 19
+          },
+          {
+            "testo_domanda":
+                "L’azienda possiede una strategia formalizzata di sostenibilità di breve, medio e lungo periodo per gestire gli impatti economici, sociali ed ambientali derivanti dalle proprie attività? (es. Piano Operativo di Sostenibilità).",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 10, "testo_risposta": "Si"},
+              {"ordine_risposta": 2, "peso_risposta": 0, "testo_risposta": "No"}
+            ],
+            "ordine_domanda": 20
+          },
+          {
+            "testo_domanda":
+                "La società ha identificato iniziative internazionali di sostenibilità che supporta o a cui ha deciso di aderire?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {
+                "ordine_risposta": 1,
+                "peso_risposta": 0,
+                "testo_risposta": "UN Global Compact e i 10 principi"
+              },
+              {
+                "ordine_risposta": 2,
+                "peso_risposta": 0,
+                "testo_risposta":
+                    "Gli obiettivi di sviluppo sostenibile dell’Agenda 2030 ONU"
+              },
+              {
+                "ordine_risposta": 3,
+                "peso_risposta": 0,
+                "testo_risposta": "Altro"
+              }
+            ],
+            "ordine_domanda": 21
+          },
+          {
+            "testo_domanda":
+                "La società redige periodicamente qualche tipo di documentazione di carattere non finanziario per comunicare internamente ed esternamente il proprio approccio alla sostenibilità?\nSe sì, è disponibile al pubblico?\nSe sì, la redazione del documento è obbligatoria o volontaria? Se si, Quale tipologia di documentazione redige? (inserire nel commento)",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "No"},
+              {
+                "ordine_risposta": 2,
+                "peso_risposta": 10,
+                "testo_risposta": "Si/No/No"
+              },
+              {
+                "ordine_risposta": 3,
+                "peso_risposta": 20,
+                "testo_risposta": "Si/Si/Volontaria"
+              },
+              {
+                "ordine_risposta": 4,
+                "peso_risposta": 30,
+                "testo_risposta": "Si/Si/Obbligatoria"
+              }
+            ],
+            "ordine_domanda": 22
+          },
+          {
+            "testo_domanda":
+                "L’azienda ha condotto assessment ESG (B Corp, Ecovadis, altro)? Se si, per quale motivo? Es. richiesta esterna da fornitore/cliente/altro oppure scelta interna. (inserire nel commento)",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "No"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "Si"}
+            ],
+            "ordine_domanda": 23
+          },
+          {
+            "testo_domanda":
+                "La società ha identificato i propri stakeholder?\nSe sì, li coinvolge in modo attivo tramite attività mirate aziendali?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "No"},
+              {
+                "ordine_risposta": 2,
+                "peso_risposta": 10,
+                "testo_risposta": "Si/No"
+              },
+              {
+                "ordine_risposta": 3,
+                "peso_risposta": 20,
+                "testo_risposta": "Si/Si"
+              }
+            ],
+            "ordine_domanda": 24
+          },
+          {
+            "testo_domanda":
+                "L’azienda ha realizzato/sviluppato prodotti/servizi considerati innovativi?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "No"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "Si"}
+            ],
+            "ordine_domanda": 25
+          },
+          {
+            "testo_domanda": "L’azienda investe in ricerca e sviluppo?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "No"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "Si"}
+            ],
+            "ordine_domanda": 26
+          },
+          {
+            "testo_domanda":
+                "L'azienda esporta i propri prodotti/servizi anche in mercati esteri o sta gestendo in altro modo il processo di internazionalizzazione?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "No"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "Si"}
+            ],
+            "ordine_domanda": 27
+          },
+          {
+            "testo_domanda":
+                "I prodotti e servizi sono rivolti anche a fasce di mercato con poca accessibilità economica o in difficoltà sociale?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "No"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "Si"}
+            ],
+            "ordine_domanda": 28
+          },
+          {
+            "testo_domanda":
+                "L’azienda ha fondato o è collegata a realtà no profit?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "No"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "Si"}
+            ],
+            "ordine_domanda": 29
+          },
+          {
+            "testo_domanda":
+                "L’azienda è compliant al GDPR e cybersecurity dei dati interni e della catena del valore?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "No"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "Si"}
+            ],
+            "ordine_domanda": 30
+          },
+          {
+            "testo_domanda":
+                "La società ha redatto documenti che riguardano politiche o procedure relative alla sostenibilità?",
+            "tipo_domanda": "checklist",
+            "risposte_possibili": [
+              {
+                "ordine_risposta": 1,
+                "peso_risposta": 0,
+                "testo_risposta": "Politica ambientale"
+              },
+              {
+                "ordine_risposta": 2,
+                "peso_risposta": 10,
+                "testo_risposta": "Politica energetica con obiettivi"
+              },
+              {
+                "ordine_risposta": 3,
+                "peso_risposta": 10,
+                "testo_risposta": "Politica sulle emissioni"
+              },
+              {
+                "ordine_risposta": 4,
+                "peso_risposta": 10,
+                "testo_risposta": "Politica per acquisti sostenibili"
+              },
+              {
+                "ordine_risposta": 5,
+                "peso_risposta": 10,
+                "testo_risposta": "Politica di gestione dei rifiuti"
+              },
+              {
+                "ordine_risposta": 6,
+                "peso_risposta": 10,
+                "testo_risposta":
+                    "Procedure per dipendenti e collaboratori (es. Manuale dipendenti)"
+              },
+              {
+                "ordine_risposta": 7,
+                "peso_risposta": 10,
+                "testo_risposta": "Politica di anticorruzione"
+              },
+              {
+                "ordine_risposta": 8,
+                "peso_risposta": 10,
+                "testo_risposta": "Politica di selezione dei fornitori"
+              },
+              {
+                "ordine_risposta": 9,
+                "peso_risposta": 10,
+                "testo_risposta":
+                    "Politica sul rispetto dei diritti umani e non discriminazione"
+              },
+              {
+                "ordine_risposta": 10,
+                "peso_risposta": 10,
+                "testo_risposta": "Altro"
+              }
+            ],
+            "ordine_domanda": 31
+          }
+        ],
+        "ordine_livello": 2,
+        "titolo_livello": "Informazioni di gestione, governance e compliance",
+        "titolo_livello_abbreviato": "Gest",
+        "scala_punteggio": {
+          "E": {"min": 0, "max": 20},
+          "D": {"min": 21, "max": 39},
+          "C": {"min": 40, "max": 49},
+          "B": {"min": 50, "max": 59},
+          "A": {"min": 60, "max": 70}
+        }
+      },
+      {
+        "domande": [
+          {
+            "testo_domanda":
+                "La società utilizza energia rinnovabile (autoprodotta o da utenza)?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 10, "testo_risposta": "Si"},
+              {"ordine_risposta": 2, "peso_risposta": 0, "testo_risposta": "No"}
+            ],
+            "ordine_domanda": 1
+          },
+          {
+            "testo_domanda":
+                "La società, negli ultimi 3 anni, ha effettuato interventi di miglioramento/efficientamento o manutenzione delle apparecchiature/strutture anche oltre gli obblighi di legge?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 10, "testo_risposta": "Si"},
+              {"ordine_risposta": 2, "peso_risposta": 0, "testo_risposta": "No"}
+            ],
+            "ordine_domanda": 2
+          },
+          {
+            "testo_domanda": "La società monitora il consumo annuale di acqua?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 10, "testo_risposta": "Si"},
+              {"ordine_risposta": 2, "peso_risposta": 0, "testo_risposta": "No"}
+            ],
+            "ordine_domanda": 3
+          },
+          {
+            "testo_domanda":
+                "La società, negli ultimi 3 anni, ha realizzato interventi finalizzati alla riduzione dei consumi idrici anche oltre gli obblighi di legge?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 10, "testo_risposta": "Si"},
+              {"ordine_risposta": 2, "peso_risposta": 0, "testo_risposta": "No"}
+            ],
+            "ordine_domanda": 4
+          },
+          {
+            "testo_domanda":
+                "La società calcola la propria impronta ambientale, oppure solamente carbonica (emissioni) o idrica?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 10, "testo_risposta": "Si"},
+              {"ordine_risposta": 2, "peso_risposta": 0, "testo_risposta": "No"}
+            ],
+            "ordine_domanda": 5
+          },
+          {
+            "testo_domanda":
+                "La società ha piani di riduzione delle emissioni di gas serra?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 10, "testo_risposta": "Si"},
+              {"ordine_risposta": 2, "peso_risposta": 0, "testo_risposta": "No"}
+            ],
+            "ordine_domanda": 6
+          },
+          {
+            "testo_domanda": "La società effettua il calcolo delle emissioni?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 10, "testo_risposta": "Si"},
+              {"ordine_risposta": 2, "peso_risposta": 0, "testo_risposta": "No"}
+            ],
+            "ordine_domanda": 7
+          },
+          {
+            "testo_domanda":
+                "La società monitora la quantità e tipologia di materiale acquistato?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "No"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "Si"}
+            ],
+            "ordine_domanda": 8
+          },
+          {
+            "testo_domanda":
+                "La società acquista prodotti/servizi ecosostenibili?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "No"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "Si"}
+            ],
+            "ordine_domanda": 9
+          },
+          {
+            "testo_domanda":
+                "La società ha processi specifici di riduzione e recupero con l’obiettivo di ridurre i volumi di rifiuti anche oltre agli obblighi di legge?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "No"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "Si"}
+            ],
+            "ordine_domanda": 10
+          },
+          {
+            "testo_domanda":
+                "La società ha implementato la raccolta differenziata?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "No"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "Si"}
+            ],
+            "ordine_domanda": 11
+          },
+          {
+            "testo_domanda":
+                "La società adotta un sistema di gestione ambientale?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "No"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "Si"}
+            ],
+            "ordine_domanda": 12
+          },
+          {
+            "testo_domanda":
+                "La società promuove tra i suoi dipendenti buone pratiche di tutela ambientale?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "No"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "Si"}
+            ],
+            "ordine_domanda": 13
+          },
+          {
+            "testo_domanda":
+                "La società monitora parametri ambientali che hanno un impatto sulla salute e sicurezza (es. livelli di rumore, illuminazione, altro)?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "No"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "Si"}
+            ],
+            "ordine_domanda": 14
+          },
+          {
+            "testo_domanda":
+                "L’azienda rispetta tutte le norme ambientali poste in essere a livello nazionale, regionale e internazionale?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "No"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "Si"}
+            ],
+            "ordine_domanda": 15
+          },
+          {
+            "testo_domanda":
+                "Le attività di business determinano impatti sulla biodiversità?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "No"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "Si"}
+            ],
+            "ordine_domanda": 16
+          },
+          {
+            "testo_domanda":
+                "L’azienda valuta il tema degli impatti ambientali indiretti?vSe sì, in che modo e attraverso quali strumenti? (nei commenti)",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "No"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "Si"}
+            ],
+            "ordine_domanda": 17
+          },
+          {
+            "testo_domanda":
+                "L’azienda collabora con altre realtà industriali con le quali è riuscita ad avviare attività di simbiosi industriale (ovvero per massimizzare il riutilizzo di risorse normalmente considerate scarti)?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "No"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "Si"}
+            ],
+            "ordine_domanda": 18
+          },
+          {
+            "testo_domanda":
+                "L’azienda ha sostenuto iniziative di informazione e sensibilizzazione rivolte ai dipendenti sul tema della riduzione degli sprechi?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "No"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "Si"}
+            ],
+            "ordine_domanda": 19
+          },
+          {
+            "testo_domanda":
+                "L’azienda produce prodotti e servizi allineati alla tassonomia green UE o con caratteristiche ecologiche? Se sì, in quale percentuale sulle referenze di prodotti o sul totale di pezzi venduti? Se sì, che caratteristiche ecologiche sono presenti? (nei commenti)",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "No"},
+              {
+                "ordine_risposta": 2,
+                "peso_risposta": 10,
+                "testo_risposta": "Si / <25%"
+              },
+              {
+                "ordine_risposta": 3,
+                "peso_risposta": 10,
+                "testo_risposta": "Si / >25%"
+              }
+            ],
+            "ordine_domanda": 20
+          }
+        ],
+        "ordine_livello": 3,
+        "titolo_livello":
+            "Attività di sostenibilità d’impresa: Ambiente ed economia circolare",
+        "titolo_livello_abbreviato": "Amb",
+        "scala_punteggio": {
+          "E": {"min": 0, "max": 20},
+          "D": {"min": 21, "max": 39},
+          "C": {"min": 40, "max": 49},
+          "B": {"min": 50, "max": 59},
+          "A": {"min": 60, "max": 70}
+        }
+      },
+      {
+        "domande": [
+          {
+            "testo_domanda":
+                "La società attua programmi di valutazione dei fornitori (qualità, sociale, ambientale, etica, governance)?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "No"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "Si"}
+            ],
+            "ordine_domanda": 1
+          },
+          {
+            "testo_domanda":
+                "La società integra nei propri contratti commerciali clausole sociali o ambientali?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "No"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "Si"}
+            ],
+            "ordine_domanda": 2
+          },
+          {
+            "testo_domanda":
+                "L’azienda rispetta i contratti verso i fornitori e i distributori, e rispetta i termini di pagamento, e nella fase di trattativa cerca di raggiungere un accordo vincente per entrambe le parti?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "No"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "Si"}
+            ],
+            "ordine_domanda": 3
+          },
+          {
+            "testo_domanda":
+                "L’azienda ha fornitori no profit, o di proprietà di comunità in difficoltà economica o sociale?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "No"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "Si"}
+            ],
+            "ordine_domanda": 4
+          },
+          {
+            "testo_domanda":
+                "L'azienda ha collaborato con altre aziende per sviluppare prodotti/servizi congiunti?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "No"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "Si"}
+            ],
+            "ordine_domanda": 5
+          }
+        ],
+        "ordine_livello": 4,
+        "titolo_livello": "Attività di sostenibilità d’impresa: Fornitura",
+        "titolo_livello_abbreviato": "Forn",
+        "scala_punteggio": {
+          "E": {"min": 0, "max": 20},
+          "D": {"min": 21, "max": 39},
+          "C": {"min": 40, "max": 49},
+          "B": {"min": 50, "max": 59},
+          "A": {"min": 60, "max": 70}
+        }
+      },
+      {
+        "domande": [
+          {
+            "testo_domanda":
+                "La società applica il principio della parità retributiva e sistemi meritocratici come i premi di produttività?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "Si"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "No"}
+            ],
+            "ordine_domanda": 1
+          },
+          {
+            "testo_domanda":
+                "I dipendenti/collaboratori partecipano a corsi di formazione interni o esterni pagati (anche solo in parte) dalla società?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "Si"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "No"}
+            ],
+            "ordine_domanda": 2
+          },
+          {
+            "testo_domanda":
+                "I dipendenti/collaboratori hanno la possibilità di utilizzare orari flessibili in entrata e/o in uscita, la possibilità di lavoro a tempo parziale o la possibilità di lavoro a distanza (smart working)?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "No"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "Si"}
+            ],
+            "ordine_domanda": 3
+          },
+          {
+            "testo_domanda":
+                "La società è soggetta alla disciplina sul diritto di lavoro ai soggetti diversamente abili L.1999/68 e copre la quota di lavoratori diversamente abili attraverso l’assunzione L.1999/68 o con terziariato ex. Art.14?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {
+                "ordine_risposta": 1,
+                "peso_risposta": 0,
+                "testo_risposta": "Non applicabile"
+              },
+              {"ordine_risposta": 2, "peso_risposta": 0, "testo_risposta": "No"},
+              {"ordine_risposta": 3, "peso_risposta": 10, "testo_risposta": "Si"}
+            ],
+            "ordine_domanda": 4
+          },
+          {
+            "testo_domanda":
+                "La società prevede iniziative per la tutela delle pari opportunità e al sostegno alla genitorialità, non previste dai contratti nazionali?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "Si"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "No"}
+            ],
+            "ordine_domanda": 5
+          },
+          {
+            "testo_domanda":
+                "Sono attivi programmi di gestione delle carriere, retribuzioni di lungo periodo e assunzioni?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "Si"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "No"}
+            ],
+            "ordine_domanda": 6
+          },
+          {
+            "testo_domanda":
+                "La società ha implementato politiche a favore dell’inclusione, della parità di genere e della tutela dei diritti umani?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "Si"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "No"}
+            ],
+            "ordine_domanda": 7
+          },
+          {
+            "testo_domanda":
+                "Sono attivi programmi/procedure per prevenire molestie e discriminazione sul lavoro?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "Si"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "No"}
+            ],
+            "ordine_domanda": 8
+          },
+          {
+            "testo_domanda":
+                "La società monitora il numero, il tasso di gravità e frequenza degli infortuni anche oltre quanto previsto dal DVR?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "Si"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "No"}
+            ],
+            "ordine_domanda": 9
+          },
+          {
+            "testo_domanda":
+                "L’azienda produce prodotti e servizi allineati alla tassonomia sociale UE o con caratteristiche etiche? Se sì, in quale percentuale sulle referenze di prodotti o sul totale di pezzi venduti? Se sì, che caratteristiche etiche/sociali sono presenti (inserire nel commento)?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "No"},
+              {
+                "ordine_risposta": 2,
+                "peso_risposta": 10,
+                "testo_risposta": "Si / <25%"
+              },
+              {
+                "ordine_risposta": 3,
+                "peso_risposta": 10,
+                "testo_risposta": "Si / >25%"
+              }
+            ],
+            "ordine_domanda": 10
+          },
+          {
+            "testo_domanda":
+                "Sul totale degli impiegati qual è la percentuale delle donne presenti in azienda?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {
+                "ordine_risposta": 1,
+                "peso_risposta": 0,
+                "testo_risposta": "<25%"
+              },
+              {
+                "ordine_risposta": 2,
+                "peso_risposta": 10,
+                "testo_risposta": "25% - 45%"
+              },
+              {
+                "ordine_risposta": 3,
+                "peso_risposta": 10,
+                "testo_risposta": ">45%"
+              }
+            ],
+            "ordine_domanda": 11
+          },
+          {
+            "testo_domanda":
+                "L’azienda valuta il tema degli impatti indiretti di tipo sociale? Se si in che modo a e attraverso quali strumenti (inserire nel commento)?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "Si"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "No"}
+            ],
+            "ordine_domanda": 12
+          },
+          {
+            "testo_domanda":
+                "Quale percentuale di dipendenti ha un contratto a tempo indeterminato?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {
+                "ordine_risposta": 1,
+                "peso_risposta": 0,
+                "testo_risposta": "<45%"
+              },
+              {
+                "ordine_risposta": 2,
+                "peso_risposta": 10,
+                "testo_risposta": "45% - 90%"
+              },
+              {
+                "ordine_risposta": 3,
+                "peso_risposta": 10,
+                "testo_risposta": ">90%"
+              }
+            ],
+            "ordine_domanda": 13
+          },
+          {
+            "testo_domanda":
+                "L’azienda misura il tasso di turnover (inteso come il rapporto tra le assunzioni e le cessazioni)?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "No"},
+              {
+                "ordine_risposta": 2,
+                "peso_risposta": 0,
+                "testo_risposta": "Si / >25%"
+              },
+              {
+                "ordine_risposta": 3,
+                "peso_risposta": 10,
+                "testo_risposta": "Si / 10% - 25%"
+              },
+              {
+                "ordine_risposta": 4,
+                "peso_risposta": 10,
+                "testo_risposta": "Si / <10%"
+              }
+            ],
+            "ordine_domanda": 14
+          },
+          {
+            "testo_domanda":
+                "Sono presenti all'interno dell’azienda dipendenti appartenenti alle categorie protette o deboli (ex-detenuti; migranti; vittime di tratta o di violenza; persone in fase di recupero sociale; o altro)?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "Si"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "No"}
+            ],
+            "ordine_domanda": 15
+          },
+          {
+            "testo_domanda":
+                "Vengono condotte delle indagini sul benessere sul luogo di lavoro dei dipendenti?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "Si"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "No"}
+            ],
+            "ordine_domanda": 16
+          },
+          {
+            "testo_domanda":
+                "Sono previsti dei permessi particolari per facilitare un miglior equilibrio tra la vita privata e lavorativa dei dipendenti?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "Si"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "No"}
+            ],
+            "ordine_domanda": 17
+          },
+          {
+            "testo_domanda":
+                "Vi sono attività di formazione sui temi legati alla sostenibilità? Se sì, su quali temi (inserire nel commento)?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "Si"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "No"}
+            ],
+            "ordine_domanda": 18
+          },
+          {
+            "testo_domanda":
+                "È presente un regolamento di welfare interno all’azienda? Se sì quali strumenti di welfare sono presenti in azienda? (inserire nel commento)",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "Si"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "No"}
+            ],
+            "ordine_domanda": 19
+          }
+        ],
+        "ordine_livello": 5,
+        "titolo_livello":
+            "Attività di sostenibilità d’impresa: Lavoro e diritti umani",
+        "titolo_livello_abbreviato": "Lav",
+        "scala_punteggio": {
+          "E": {"min": 0, "max": 20},
+          "D": {"min": 21, "max": 39},
+          "C": {"min": 40, "max": 49},
+          "B": {"min": 50, "max": 59},
+          "A": {"min": 60, "max": 70}
+        }
+      },
+      {
+        "domande": [
+          {
+            "testo_domanda":
+                "L’azienda coltiva le relazioni con i clienti periodicamente? Se sì, come gestisce l’azienda le relazioni con i clienti? (inserire nel commento)",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "Si"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "No"}
+            ],
+            "ordine_domanda": 1
+          },
+          {
+            "testo_domanda":
+                "Sono garantiti i diritti dei clienti e consumatori, e hanno la possibilità di inviare reclami e feedback o di chiedere assistenza?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "Si"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "No"}
+            ],
+            "ordine_domanda": 2
+          },
+          {
+            "testo_domanda":
+                "L’azienda ha introdotto pratiche di sostenibilità a beneficio del cliente? Se sì, quali? (inserire nel commento)",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "No"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "Si"}
+            ],
+            "ordine_domanda": 3
+          },
+          {
+            "testo_domanda":
+                "L'azienda dispone di documenti tecnici pubblici diffusi attraverso sito web, app, social media, numero verde, sportello, negozi, centri assistenza, altro, per comunicare la sostenibilità di prodotto/servizio?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "No"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "Si"}
+            ],
+            "ordine_domanda": 4
+          }
+        ],
+        "ordine_livello": 6,
+        "titolo_livello": "Attività di sostenibilità d’impresa: Clienti",
+        "titolo_livello_abbreviato": "Cli",
+        "scala_punteggio": {
+          "E": {"min": 0, "max": 20},
+          "D": {"min": 21, "max": 39},
+          "C": {"min": 40, "max": 49},
+          "B": {"min": 50, "max": 59},
+          "A": {"min": 60, "max": 70}
+        }
+      },
+      {
+        "domande": [
+          {
+            "testo_domanda":
+                "L’azienda coinvolge e comunica con la comunità locale? Se sì, secondo quale modalità? (inserire nel commento)",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "Si"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "No"}
+            ],
+            "ordine_domanda": 1
+          },
+          {
+            "testo_domanda":
+                "L'azienda collabora con associazioni del territorio che promuovono iniziative di carattere sociale, benefico, culturale e ricreativo?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "Si"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "No"}
+            ],
+            "ordine_domanda": 2
+          },
+          {
+            "testo_domanda":
+                "L’azienda ha stipulato accordi con enti pubblici o privati o comunità locali per svolgere attività a favore delle proprie comunità di riferimento?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "No"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "Si"}
+            ],
+            "ordine_domanda": 3
+          },
+          {
+            "testo_domanda":
+                "L’azienda ha effettuato sponsorizzati/supportato progetti di filantropia?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "No"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "Si"}
+            ],
+            "ordine_domanda": 4
+          },
+          {
+            "testo_domanda":
+                "L'azienda ha collaborato con istituti di formazione come scuole superiori ed università per svolgere progetti di impatto sociale?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "No"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "Si"}
+            ],
+            "ordine_domanda": 5
+          },
+          {
+            "testo_domanda":
+                "L’azienda ha aderito a programmi di alternanza scuola-lavoro o promosso attività di apprendistato?",
+            "tipo_domanda": "radio",
+            "risposte_possibili": [
+              {"ordine_risposta": 1, "peso_risposta": 0, "testo_risposta": "No"},
+              {"ordine_risposta": 2, "peso_risposta": 10, "testo_risposta": "Si"}
+            ],
+            "ordine_domanda": 6
+          }
+        ],
+        "ordine_livello": 7,
+        "titolo_livello": "Attività di sostenibilità d’impresa: Comunità locale",
+        "titolo_livello_abbreviato": "ComLoc",
+        "scala_punteggio": {
+          "E": {"min": 0, "max": 20},
+          "D": {"min": 21, "max": 39},
+          "C": {"min": 40, "max": 49},
+          "B": {"min": 50, "max": 59},
+          "A": {"min": 60, "max": 70}
+        }
+      }
+    ],
+    "scala_punteggio": {
+      "E": {"min": 0, "max": 29},
+      "D": {"min": 30, "max": 59},
+      "C": {"min": 60, "max": 89},
+      "B": {"min": 90, "max": 119},
+      "A": {"min": 120, "max": 150}
+    }
+  }
